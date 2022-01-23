@@ -1,0 +1,91 @@
+/* text-color #757575 
+title-color #212121
+accent-color #2196F3
+footer-adress rgba(255, 255, 255, 0.6) 
+white #FFFFFF
+body-bkgrnd #E5E5E5;
+section-bkgrnd #F5F4FA
+*/
+
+:root {
+  --text-color: #757575;
+  --title-color: #212121;
+  --accent-color: #2196f3;
+  --body-bkgrnd: #e5e5e5;
+  --section-bkgrnd: #f5f4fa;
+}
+
+body {
+  background-color: var(--body-bkgrnd);
+  color: var(--text-color);
+  font-family: roboto;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: var(--title-color);
+  text-decoration: none;
+  font-family: Raleway;
+}
+.weblogo {
+  color: var(--accent-color);
+}
+/* навигация сайта */
+.site-nav .link {
+  color: var(--title-color);
+  text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.email {
+  color: var(--text-color);
+}
+.tel {
+  color: var(--text-color);
+}
+.contacts a {
+  text-decoration: none;
+}
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+/* герой */
+.hero {
+  color: #ffffff;
+  background-color: grey;
+}
+/* секции основного контента */
+.section-title,
+.title {
+  color: var(--title-color);
+}
+/* футер */
+.footer .logo {
+  color: white;
+}
+.adress {
+  color: #ffffff;
+}
+.footer .contacts {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer {
+  background-color: var(--title-color);
+}
+/* кнопка */
+.button {
+  background-color: var(--accent-color);
+  color: white;
+}
