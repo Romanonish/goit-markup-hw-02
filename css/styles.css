@@ -18,7 +18,7 @@ section-bkgrnd #F5F4FA
 body {
   background-color: var(--body-bkgrnd);
   color: var(--text-color);
-  font-family: roboto;
+  font-family: roboto, sans-serif;
 }
 ul {
   list-style: none;
@@ -26,7 +26,11 @@ ul {
 .logo {
   color: var(--title-color);
   text-decoration: none;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .weblogo {
   color: var(--accent-color);
@@ -35,6 +39,10 @@ ul {
 .site-nav .link {
   color: var(--title-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -51,6 +59,11 @@ ul {
 }
 .contacts a {
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .tel:hover,
 .tel:focus {
@@ -61,14 +74,70 @@ ul {
   color: var(--accent-color);
 }
 /* герой */
-.hero {
+.hero > h1 {
   color: #ffffff;
   background-color: grey;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* кнопка */
+.button {
+  background-color: var(--accent-color);
+  color: white;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* секции основного контента */
-.section-title,
+
 .title {
   color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* особенности */
+.features h3 {
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features p {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* наша команда*/
+.team h3 {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* футер */
 .footer .logo {
@@ -76,16 +145,21 @@ ul {
 }
 .adress {
   color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
 }
+
 .footer .contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer {
   background-color: var(--title-color);
-}
-/* кнопка */
-.button {
-  background-color: var(--accent-color);
-  color: white;
 }
