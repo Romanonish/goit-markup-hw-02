@@ -27,7 +27,7 @@ ul {
   color: var(--title-color);
   text-decoration: none;
   font-family: Raleway, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -134,7 +134,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .team p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -150,16 +149,52 @@ ul {
   letter-spacing: 0.03em;
   font-style: normal;
 }
+.footer .contacts:hover,
+.footer .contacts:focus {
+  color: var(--accent-color);
+}
 
 .footer .contacts {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .footer {
   background-color: var(--title-color);
+}
+/* Портфолио */
+.filter-btn {
+  color: var(--title-color);
+  background-color: #f5f4fa;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+.works-list a {
+  text-decoration: none;
+}
+.works-list h2 {
+  color: var(--title-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.works-list p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
