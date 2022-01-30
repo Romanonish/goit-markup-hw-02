@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --body-bkgrnd: #e5e5e5;
   --section-bkgrnd: #f5f4fa;
+  --white-color: #ffffff;
 }
 
 body {
@@ -23,9 +24,14 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.weblogo {
+.web {
   color: var(--accent-color);
 }
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+
 /* навигация сайта */
 .site-nav .link {
   color: var(--title-color);
@@ -39,7 +45,7 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current {
+.link.current {
   color: var(--accent-color);
 }
 .email {
@@ -67,7 +73,7 @@ ul {
 }
 /* герой */
 .hero > h1 {
-  color: #ffffff;
+  color: var(--white-color);
   background-color: grey;
 
   font-weight: 900;
@@ -80,16 +86,22 @@ ul {
 /* кнопка */
 .button {
   background-color: var(--accent-color);
-  color: white;
+  color: var(--white-color);
 
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
+  cursor: pointer;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+.button:hover,
+button:focus {
+  color: var(--accent-color);
+  background-color: var(--white-color);
 }
 /* секции основного контента */
 
@@ -131,6 +143,11 @@ ul {
   letter-spacing: 0.03em;
 }
 /* футер */
+
+.footer .logo:hover,
+.footer .logo:focus {
+  color: var(--accent-color);
+}
 .footer .logo {
   color: white;
 }
@@ -166,6 +183,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -180,7 +198,6 @@ ul {
 .works .works-title {
   color: var(--title-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
