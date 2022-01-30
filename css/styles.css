@@ -48,7 +48,8 @@ ul {
 .tel {
   color: var(--text-color);
 }
-.contacts a {
+.contacts .email,
+.contacts .tel {
   text-decoration: none;
 
   font-weight: 500;
@@ -102,7 +103,7 @@ ul {
   letter-spacing: 0.03em;
 }
 /* особенности */
-.features h3 {
+.features .feature-title {
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
@@ -110,21 +111,21 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features p {
+.features .feature-text {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* наша команда*/
-.team h3 {
+.team .name {
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.team p {
+.team .prof {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -173,10 +174,10 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
 }
-.works-list a {
+.works .link {
   text-decoration: none;
 }
-.works-list h2 {
+.works .works-title {
   color: var(--title-color);
 
   font-weight: 700;
@@ -184,7 +185,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.works-list p {
+.works .works-type {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.87;
