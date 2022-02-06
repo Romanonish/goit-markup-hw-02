@@ -100,8 +100,7 @@ ul {
 }
 .button:hover,
 button:focus {
-  color: var(--accent-color);
-  background-color: var(--white-color);
+  background-color: #188ce8;
 }
 /* секции основного контента */
 
